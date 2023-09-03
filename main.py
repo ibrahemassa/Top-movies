@@ -28,11 +28,11 @@ db.init_app(app)
 
 URL = f"https://api.themoviedb.org/3/search/movie"
 ID_URL = 'https://api.themoviedb.org/3/movie/movie_id'
-MOVIE_DB_API_KEY = 'ec2fbc7be44b0a6b68fbb467dbd4391c'
+MOVIE_DB_API_KEY = 'YOUR TMDP API KEY'
 
 headers = {
     "accept": "application/json",
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYzJmYmM3YmU0NGIwYTZiNjhmYmI0NjdkYmQ0MzkxYyIsInN1YiI6IjY0ZjE4NGZhZWJiOTlkMDEzYmNmMjdiNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5mJD8XUgvqUp2hpAbarjv_fm7vDLibtZnHn7ZvsxOYY"
+    "Authorization": "Bearer YOUR TMDP API KEY"
 }
 
 class Movie(db.Model):
